@@ -1,0 +1,19 @@
+/* Create at least 5 color variables */
+
+
+$white      : #fff;
+$black      : #000;
+$grey       : #878787;
+$grey-m     : #777;
+$downy      : #58E1C1;
+$turquoise-blue: #51ddfc;
+
+
+$color-prim :$downy;
+$color-sec  :lighten($grey-m,30%);
+
+$color-body:$white;
+
+/* Create at least 1 variable for media query breakpoint*/
+
+$brk-normal : '(max-width: 768px)';
